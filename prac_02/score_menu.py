@@ -1,6 +1,7 @@
-MENU = """C - Convert Celsius to Fahrenheit
-          F - Convert Fahrenheit to Celsius
-          Q - Quit"""
+MENU = """(G)et a valid score (must be 0-100 inclusive)
+          (P)rint result (copy or import your function to determine the result from score.py)
+          (S)how stars (this should print as many stars as the score)
+          (Q)uit"""
 
 def main():
     print(MENU)
@@ -21,4 +22,9 @@ def change_fahrenheit_to_celsius(fahrenheit):
     return  5/9 * (fahrenheit - 32)
 
 main()
+
+
+
+
+
 
